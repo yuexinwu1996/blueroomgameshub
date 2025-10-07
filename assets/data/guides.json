@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "escape-blue-room",
+    "title": "Escape: Blue Room Master Walkthrough",
+    "game_slug": "escape-blue-room",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Hard",
+    "story_depth": "High",
+    "rating": 4.8,
+    "youtube_video_id": "Fo0h2w9KqAc",
+    "published_at": "2024-09-24",
+    "last_updated_at": "2024-09-26",
+    "author": "BlueRoom Editorial",
+    "languages": ["en"],
+    "estimated_time": 15,
+    "summary": "Blueprint every cipher, hidden compartment, and timed pressure plate inside the Blue Room wing. This walkthrough prioritises consistent multiplayer routing without sacrificing the narrative beats that make the scenario memorable.",
+    "summary_steps": [
+      {
+        "title": "Step 1 — Stabilise the entry wing",
+        "description": "Sweep the foyer for the four emblem tiles tucked under wall mouldings, then assemble the mural in the center console. Assign one team mate to monitor the ambient light strips—when they pulse in pairs the hidden drawer with the brass decoder spindle will unlatch."
+      },
+      {
+        "title": "Step 2 — Decode the resonant locks",
+        "description": "Pair the brass spindle with the gramophone and rotate until the waveform markers align with the blue hash lines. Capture the frequency output on the chalkboard grid and translate it to the numeric sequence that releases the inner chamber. A second pair should mirror the sequence on the magnetic switchboard to suppress the dart trap."
+      },
+      {
+        "title": "Step 3 — Confront the fractal vault",
+        "description": "Once inside the vault, split tasks between the rotating crystal prism puzzle and the archival ledger. The prism must be tuned to channel light through all three glyphs simultaneously; meanwhile decode the ledger's acrostic to reveal the escape phrase. When both align, the exit hatch slides open for a clean finish."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How strict is the 45 minute timer?",
+        "answer": "The timer pauses each time the narration interjects, giving you roughly five hidden minutes. Use them to reset props and confirm the cipher alignment before the vault segment."
+      },
+      {
+        "question": "Can we solo the vault puzzle?",
+        "answer": "Solo runs are possible but expect substantial backtracking. Duo play is the sweet spot because one person can manage the prisms while the other tracks ledger permutations."
+      },
+      {
+        "question": "What happens if we trigger the dart trap?",
+        "answer": "You lose the hint bonus and the systems force a 90 second blackout. Stick to mirrored input on the switchboard to avoid the penalty entirely."
+      }
+    ],
+    "related_slugs": ["chronos-vault", "labyrinth-symmetry", "spectral-library"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "cryptic-lighthouse",
+    "title": "Cryptic Lighthouse Signal Primer",
+    "game_slug": "cryptic-lighthouse",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Medium",
+    "story_depth": "Medium",
+    "rating": 4.5,
+    "youtube_video_id": "H8mT2qjfMVE",
+    "published_at": "2024-09-12",
+    "last_updated_at": "2024-09-20",
+    "author": "Beacon Works Crew",
+    "languages": ["en"],
+    "estimated_time": 12,
+    "summary": "Master the lighthouse's pulse language, triangulate beacon mirrors, and decode the tide charts that reveal the smugglers' safe route.",
+    "summary_steps": [
+      {
+        "title": "Step 1 — Map the pulse legend",
+        "description": "Copy the notation from the captain's log and overlay it with the brass compass plate. Each long flash equals three short beats; converting them to coordinates unlocks the first console switch."
+      },
+      {
+        "title": "Step 2 — Align the mirror array",
+        "description": "Set the mirrors to reflect the primary beam across all four docking markers. When the mirrors click into place, the foghorn emits a dual tone that reveals the smugglers' manifest."
+      },
+      {
+        "title": "Step 3 — Decode the tide chart",
+        "description": "Trace the encrypted tide chart with UV ink to uncover the final safe channel. The combination is read clockwise and feeds the exit crank."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do we need audio equipment?",
+        "answer": "The room provides headsets but subtitles are projected for accessibility."
+      },
+      {
+        "question": "Is there a failure state before the finale?",
+        "answer": "Only if the beam alignment is off for more than two minutes—this triggers a storm cutscene and erases progress."
+      },
+      {
+        "question": "Any cooperative tips?",
+        "answer": "Two players should focus on audio cues while the others manage mirror angles to keep the pace tight."
+      }
+    ],
+    "related_slugs": ["phantom-signal", "nebula-syndicate", "eden-protocol"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "chronos-vault",
+    "title": "Chronos Vault Timeline Strategy",
+    "game_slug": "chronos-vault",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Insane",
+    "story_depth": "High",
+    "rating": 4.9,
+    "youtube_video_id": "LCYJQv4Sr9k",
+    "published_at": "2024-09-18",
+    "last_updated_at": "2024-09-25",
+    "author": "Parallax Lab Analysts",
+    "languages": ["en"],
+    "estimated_time": 20,
+    "summary": "Sequence three simultaneous timelines, redistribute chronon charges, and collapse the paradox failsafe with surgical precision.",
+    "summary_steps": [
+      {
+        "title": "Step 1 — Assign timeline captains",
+        "description": "Designate Alpha, Beta, and Gamma leads, each tracking a parallel clock. Sync their rotations every 90 seconds to avoid paradox drift while gathering chronon charges."
+      },
+      {
+        "title": "Step 2 — Calibrate the relay nexus",
+        "description": "Slot charge cartridges into the nexus following the 3-1-2 cadence. Any mismatch triggers a rewind, so have Beta timeline confirm each handoff verbally before locking switches."
+      },
+      {
+        "title": "Step 3 — Collapse the failsafe",
+        "description": "Engage the failsafe only after all chronon gauges read green. Gamma timeline must input the override phrase as Alpha triggers the final lock."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many players are required?",
+        "answer": "Four is the practical minimum. Fewer players will struggle to juggle all three timelines."
+      },
+      {
+        "question": "What if the nexus overloads?",
+        "answer": "An overload force rewinds you three minutes. Use the downtime to rebalance charges."
+      },
+      {
+        "question": "Does the guide spoil narrative beats?",
+        "answer": "We cover only the mechanical triggers so the major plot reveals still land organically."
+      }
+    ],
+    "related_slugs": ["escape-blue-room", "clockwork-paradox", "phantom-signal"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "nebula-syndicate",
+    "title": "Nebula Syndicate Insider Notes",
+    "game_slug": "nebula-syndicate",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Medium",
+    "story_depth": "Medium",
+    "rating": 4.3,
+    "youtube_video_id": "evJ-4xg1Zs0",
+    "published_at": "2024-09-22",
+    "last_updated_at": "2024-09-25",
+    "author": "Orbit Guild Analysts",
+    "languages": ["en"],
+    "estimated_time": 14,
+    "summary": "Track double agents, decrypt trade routes, and leverage social deduction prompts to smoke out the Nebula Syndicate's courier chain.",
+    "summary_steps": [
+      {
+        "title": "Step 1 — Profile the couriers",
+        "description": "Collect badge chips and run them through the holo-scanner. A mismatch between badge colour and vocal cadence flags a suspect."
+      },
+      {
+        "title": "Step 2 — Trace the relic routes",
+        "description": "Combine starmap overlays with shipment manifests to identify the three safe slipstreams. Align them to expose the Syndicate vault."
+      },
+      {
+        "title": "Step 3 — Seal the getaway",
+        "description": "Initiate lockdown by inputting the decoded passphrase on the station console. Finish with the empathy interview to determine the final escape branch."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does the room require deception skills?",
+        "answer": "The social deduction segments are light; evidence gathering is the heavier load."
+      },
+      {
+        "question": "Any language barriers?",
+        "answer": "All prompts ship with English voiceover. Co-op chat cues are optional."
+      },
+      {
+        "question": "What is the hardest puzzle?",
+        "answer": "The slipstream alignment—use two players to maintain accuracy."
+      }
+    ],
+    "related_slugs": ["phantom-signal", "spectral-library", "cryptic-lighthouse"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "obsidian-manor",
+    "title": "Obsidian Manor Artifact Route",
+    "game_slug": "obsidian-manor",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Hard",
+    "story_depth": "Medium",
+    "rating": 4.6,
+    "youtube_video_id": "m9W0-Ux6l0U",
+    "published_at": "2024-08-30",
+    "last_updated_at": "2024-09-22",
+    "author": "Blackstone Archivists",
+    "languages": ["en"],
+    "estimated_time": 16,
+    "summary": "Balance cursed relics, redirect spectral light paths, and neutralise the manor's hidden guardians."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Weigh the relics",
+        "description": "Use the alchemical scale to pair relics with their stabilising counterparts. The correct pairings glow faint blue."
+      },
+      {
+        "title": "Step 2 — Route the spectral beam",
+        "description": "Position mirrors to channel a continuous beam through the stained glass mural. The correct pattern projects the family crest."
+      },
+      {
+        "title": "Step 3 — Unlock the archive",
+        "description": "Enter the crest combination into the ancient safe and flip the hidden floor switch to access the final chamber."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can we brute-force the safe?",
+        "answer": "No. Incorrect inputs trigger a mist reset and wipes hint bonuses."
+      },
+      {
+        "question": "Do we need gloves for relic handling?",
+        "answer": "The set provides velvet gloves; you must wear them or the sensors lock the scale."
+      },
+      {
+        "question": "Is the finale scary?",
+        "answer": "It's atmospheric with low lighting, but there are no jump scares."
+      }
+    ],
+    "related_slugs": ["spectral-library", "escape-blue-room", "clockwork-paradox"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "aurora-experiment",
+    "title": "Aurora Experiment Family Guide",
+    "game_slug": "aurora-experiment",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Easy",
+    "story_depth": "Low",
+    "rating": 4.2,
+    "youtube_video_id": "s7Q2kGlsEUU",
+    "published_at": "2024-09-25",
+    "last_updated_at": "2024-09-26",
+    "author": "Lumen Labs Mentors",
+    "languages": ["en"],
+    "estimated_time": 10,
+    "summary": "A quick family-friendly route for stabilising prism arrays and triggering the aurora finale without stress."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Collect the prism keys",
+        "description": "Gather the colour-coded prism keys from the observation dome and insert them into the control ring."
+      },
+      {
+        "title": "Step 2 — Tune the resonance",
+        "description": "Rotate the ring until each prism glows in sync with the aurora waves projected overhead."
+      },
+      {
+        "title": "Step 3 — Launch the finale",
+        "description": "Press the illuminated console buttons in the pattern shown on the monitor to trigger the full aurora show."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Minimum age recommendation?",
+        "answer": "We recommend age eight and up with adult supervision."
+      },
+      {
+        "question": "Can the game be replayed?",
+        "answer": "Yes, there are three randomised colour sequences."
+      },
+      {
+        "question": "Is it motion sickness friendly?",
+        "answer": "Yes, movement is minimal and the visuals fade smoothly."
+      }
+    ],
+    "related_slugs": ["eden-protocol", "cryptic-lighthouse", "midnight-carnival"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "midnight-carnival",
+    "title": "Midnight Carnival Safety Playbook",
+    "game_slug": "midnight-carnival",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Medium",
+    "story_depth": "High",
+    "rating": 4.4,
+    "youtube_video_id": "D8lqpFtbGm0",
+    "published_at": "2024-09-08",
+    "last_updated_at": "2024-09-19",
+    "author": "Grimm Attractions Safety Crew",
+    "languages": ["en"],
+    "estimated_time": 14,
+    "summary": "Disarm treacherous carnival props, negotiate with the ringmaster apparition, and reset the big top before midnight strikes."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Disable the midway traps",
+        "description": "Cut the correct fuse wires using the colour chart behind the cotton candy machine."
+      },
+      {
+        "title": "Step 2 — Pacify the ringmaster",
+        "description": "Recite the charmed verse found in the fortune-telling booth to calm the ringmaster spirit."
+      },
+      {
+        "title": "Step 3 — Reset the big top",
+        "description": "Activate the carousel levers in order, then ring the bell three times to seal the tent."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is there strobe lighting?",
+        "answer": "Short bursts occur during the finale; staff can switch to steady lighting if requested."
+      },
+      {
+        "question": "How scary is the apparition?",
+        "answer": "It's eerie but non-contact. Audio cues warn you before each appearance."
+      },
+      {
+        "question": "Can we fail the finale?",
+        "answer": "Yes. Missing the lever order resets you with a two-minute penalty."
+      }
+    ],
+    "related_slugs": ["obsidian-manor", "labyrinth-symmetry", "spectral-library"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "labyrinth-symmetry",
+    "title": "Labyrinth of Symmetry Coordination Plan",
+    "game_slug": "labyrinth-symmetry",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Hard",
+    "story_depth": "Medium",
+    "rating": 4.6,
+    "youtube_video_id": "4sHyh10VPRY",
+    "published_at": "2024-09-15",
+    "last_updated_at": "2024-09-25",
+    "author": "Axis Puzzles Coaches",
+    "languages": ["en"],
+    "estimated_time": 18,
+    "summary": "Rotate mirrored corridors, chart symmetrical corridors, and coordinate duo controls to reach the crystalline core."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Establish the mirror leads",
+        "description": "Assign north and south leads. They track mirror angles while midfielders manage the rotation nodes."
+      },
+      {
+        "title": "Step 2 — Track the resonance pulse",
+        "description": "Use the pulse meter to time rotations; every third pulse signals the correct alignment window."
+      },
+      {
+        "title": "Step 3 — Unlock the crystalline core",
+        "description": "Align all resonance beams with their twin symbols and press the dual triggers together to open the core."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can we play with two people?",
+        "answer": "Yes, but expect a steep communication challenge."
+      },
+      {
+        "question": "What causes a maze reset?",
+        "answer": "Rotating mirrors out of phase three times triggers a reset."
+      },
+      {
+        "question": "Is physical exertion required?",
+        "answer": "Light rotational effort only; no heavy lifting."
+      }
+    ],
+    "related_slugs": ["chronos-vault", "escape-blue-room", "clockwork-paradox"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "phantom-signal",
+    "title": "Phantom Signal Deep Space Guide",
+    "game_slug": "phantom-signal",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Medium",
+    "story_depth": "High",
+    "rating": 4.5,
+    "youtube_video_id": "E1z3fz_fqzE",
+    "published_at": "2024-09-25",
+    "last_updated_at": "2024-09-26",
+    "author": "Signal Forge Analysts",
+    "languages": ["en"],
+    "estimated_time": 15,
+    "summary": "Synchronise spectrogram puzzles, triangulate lost probes, and decode cosmic interference to rescue the Phantom Signal crew."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Isolate the signal",
+        "description": "Use the frequency sliders to eliminate noise bands until the core signal appears as a steady arc."
+      },
+      {
+        "title": "Step 2 — Triangulate the probe",
+        "description": "Cross-reference the signal delays with the navigation chart to pinpoint the probe's coordinates."
+      },
+      {
+        "title": "Step 3 — Send the rescue burst",
+        "description": "Compose the correct rescue code on the holo-console and fire the burst to extract the crew."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is audio mandatory?",
+        "answer": "Yes, but the room provides adjustable headsets."
+      },
+      {
+        "question": "How do hints work?",
+        "answer": "Each hint reveals one frequency range. Use sparingly to preserve bonus score."
+      },
+      {
+        "question": "Can we replay for higher accuracy?",
+        "answer": "Absolutely. Scoreboards track sub-10 minute clears."
+      }
+    ],
+    "related_slugs": ["cryptic-lighthouse", "nebula-syndicate", "chronos-vault"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "eden-protocol",
+    "title": "Eden Protocol Restoration Plan",
+    "game_slug": "eden-protocol",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Easy",
+    "story_depth": "Medium",
+    "rating": 4.1,
+    "youtube_video_id": "gKMX5e-2CnY",
+    "published_at": "2024-09-21",
+    "last_updated_at": "2024-09-24",
+    "author": "Skyward Collective",
+    "languages": ["en"],
+    "estimated_time": 11,
+    "summary": "Reboot Eden's biosphere shields with botanical logic puzzles and delicate sequencing."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Diagnose the greenhouse",
+        "description": "Scan plant beds with the handheld analyzers to identify the diseased hybrids."
+      },
+      {
+        "title": "Step 2 — Re-sequence the hybrids",
+        "description": "Rearrange DNA tiles on the lab board until the sequence chart registers green."
+      },
+      {
+        "title": "Step 3 — Restore the shields",
+        "description": "Insert the stabilised seedlings into the core panel to reactivate the greenhouse shield."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How messy does it get?",
+        "answer": "Minimal; all components are synthetic."
+      },
+      {
+        "question": "Any timers?",
+        "answer": "A soft 35 minute timer encourages steady pacing."
+      },
+      {
+        "question": "Can we fail the re-sequencing?",
+        "answer": "Incorrect sequences trigger an audio alert but no penalty."
+      }
+    ],
+    "related_slugs": ["aurora-experiment", "cryptic-lighthouse", "spectral-library"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "clockwork-paradox",
+    "title": "Clockwork Paradox Closure Guide",
+    "game_slug": "clockwork-paradox",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Hard",
+    "story_depth": "High",
+    "rating": 4.5,
+    "youtube_video_id": "Rfj4pP8mXvw",
+    "published_at": "2024-09-10",
+    "last_updated_at": "2024-09-23",
+    "author": "Chronicle Atelier",
+    "languages": ["en"],
+    "estimated_time": 17,
+    "summary": "Synchronise paradox engines, stabilise gear columns, and close the loop before the machine seals the timeline."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Prime the engines",
+        "description": "Charge the paradox engines in alternating order—left, right, center—until all pressure gauges read amber."
+      },
+      {
+        "title": "Step 2 — Align the gear columns",
+        "description": "Rotate each column until the etched numerals form the paradox equation 13-21-8."
+      },
+      {
+        "title": "Step 3 — Seal the timeline",
+        "description": "Insert the temporal key and turn handles simultaneously to close the loop."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is math knowledge required?",
+        "answer": "Basic arithmetic helps but the room provides conversion charts."
+      },
+      {
+        "question": "Can the paradox fail to close?",
+        "answer": "Only if the engine sequence is wrong. Reset and retry within two minutes."
+      },
+      {
+        "question": "Are there moving platforms?",
+        "answer": "No, only rotatable columns."
+      }
+    ],
+    "related_slugs": ["chronos-vault", "labyrinth-symmetry", "escape-blue-room"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  },
+  {
+    "slug": "spectral-library",
+    "title": "Spectral Library Archivist Plan",
+    "game_slug": "spectral-library",
+    "thumbnail": "/assets/images/guides/placeholder-guide.svg",
+    "difficulty": "Medium",
+    "story_depth": "High",
+    "rating": 4.6,
+    "youtube_video_id": "uGq5G-4Qt2Y",
+    "published_at": "2024-09-19",
+    "last_updated_at": "2024-09-25",
+    "author": "Archive Labs",
+    "languages": ["en"],
+    "estimated_time": 16,
+    "summary": "Restore spectral tomes, navigate luminous stacks, and close the archive with minimal disruption."
+    ,
+    "summary_steps": [
+      {
+        "title": "Step 1 — Catalogue the tomes",
+        "description": "Scan each spectral tome with the archivist lens to reveal hidden sigils."
+      },
+      {
+        "title": "Step 2 — Harmonise the stacks",
+        "description": "Match sigils to shelf glyphs using the resonance wheel; the correct alignment hums softly."
+      },
+      {
+        "title": "Step 3 — Seal the archive",
+        "description": "Arrange the ghostly bookends on the central pedestal and recite the closing phrase displayed by the projector."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the room dark?",
+        "answer": "Low lighting, but each station includes adjustable lamps."
+      },
+      {
+        "question": "Do the tomes float?",
+        "answer": "Only during the finale—handle gently to avoid resetting the puzzle."
+      },
+      {
+        "question": "Can we skip the chant?",
+        "answer": "No. The projector won't advance until the phrase is spoken."
+      }
+    ],
+    "related_slugs": ["obsidian-manor", "escape-blue-room", "phantom-signal"],
+    "feedback_email": "guides@blueroomgameshub.com"
+  }
+]

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#021d52" />
+      <stop offset="100%" stop-color="#1174c2" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#grad)" rx="28" ry="28" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="42" fill="#ffffff" opacity="0.85">BlueRoom</text>
+  <text x="50%" y="64%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#9fd0ff" opacity="0.9">Game Preview</text>
+</svg>

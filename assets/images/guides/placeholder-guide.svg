@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="gradGuide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f1b6b" />
+      <stop offset="100%" stop-color="#c25be3" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#gradGuide)" rx="28" ry="28" />
+  <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" fill="#ffffff" opacity="0.85">Strategy</text>
+  <text x="50%" y="63%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#f2e9ff" opacity="0.9">Video Guide</text>
+</svg>

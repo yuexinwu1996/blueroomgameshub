@@ -1,0 +1,14 @@
+# robots.txt for blueroom.cc
+# Allow all search engines to crawl everything
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.blueroom.cc/sitemap.xml
+
+# Crawl-delay for respectful crawling (optional)
+Crawl-delay: 1
+
+# Block specific paths if needed (currently none)
+# Disallow: /private/

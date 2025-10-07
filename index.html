@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BlueRoom.cc | Escape Game Central - Discover and Play the Best Online Escape Games</title>
+  <meta name="description" content="Discover and play the best online escape and puzzle games. Rated by difficulty, mechanisms, and players. Video guides and walkthroughs for every game.">
+  <meta name="keywords" content="escape room games, puzzle games, blueroom, online escape games, game walkthroughs, game guides">
+  <link rel="canonical" href="https://www.blueroom.cc/">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BlueRoom.cc",
+    "alternateName": "Blue Room Games Hub",
+    "url": "https://www.blueroom.cc/",
+    "description": "Escape Game Central - Discover and play the best online escape games",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.blueroom.cc/games/?search={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Featured Escape Games",
+    "description": "Trending escape and puzzle games",
+    "numberOfItems": 12,
+    "itemListElement": []
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-brand" href="/" aria-label="BlueRoom.cc Home">
+          <span class="site-brand-icon">B</span>
+          <span>blueroom.cc</span>
+        </a>
+        <div class="site-nav-links">
+          <a href="/" aria-current="page">Home</a>
+          <a href="/games/">Games</a>
+          <a href="/guides/">Guides</a>
+          <a href="/about/">About</a>
+        </div>
+        <div class="search-shell" data-search>
+          <form data-search-form role="search" aria-label="Site search">
+            <label class="visually-hidden" for="global-search">Search games...</label>
+            <input id="global-search" type="search" name="q" placeholder="Search games..." autocomplete="off">
+            <button type="submit" aria-label="Search">🔍</button>
+          </form>
+          <div class="search-results-panel" data-search-results aria-expanded="false"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="container">
+        <h1>Escape Game Central</h1>
+        <p class="hero-subtitle">Discover and play the best online escape games</p>
+
+        <!-- Featured Video -->
+        <div class="featured-video-container">
+          <div class="featured-video-placeholder">
+            <div class="play-button">▶</div>
+            <span style="position: absolute; bottom: 1rem; color: var(--text-muted); font-size: 0.875rem;">Featured Game Trailer</span>
+          </div>
+        </div>
+
+        <!-- Trust Strip -->
+        <div class="trust-strip">
+          50+ Games · Updated daily · Trusted by 10,000+ players
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Games Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Games</h2>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tablist" role="tablist" data-tablist>
+          <button class="tab-button" role="tab" aria-selected="true" data-tab-target="tab-trending" id="tab-btn-trending">
+            🔥 Trending
+          </button>
+          <button class="tab-button" role="tab" aria-selected="false" data-tab-target="tab-new" id="tab-btn-new" tabindex="-1">
+            🆕 New
+          </button>
+          <button class="tab-button" role="tab" aria-selected="false" data-tab-target="tab-editors" id="tab-btn-editors" tabindex="-1">
+            ⭐ Editor's Picks
+          </button>
+        </div>
+
+        <!-- Trending Tab -->
+        <div id="tab-trending" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-trending" aria-hidden="false">
+          <div class="card-grid">
+            <!-- Mystery Mansion -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Mystery Mansion game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Mystery Mansion</h3>
+                  <span class="badge-soft hard">
+                    <span class="difficulty-icon">🔥🔥🔥</span> Hard
+                  </span>
+                </div>
+                <p>Solve intricate puzzles and uncover hidden secrets in the mysterious mansion before time runs out.</p>
+                <div class="pill-row">
+                  <span class="pill">Puzzle</span>
+                  <span class="pill">Horror</span>
+                  <span class="pill">Logic</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.6</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>345</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/mystery-mansion/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Space Station Alpha -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Space Station Alpha game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Space Station Alpha</h3>
+                  <span class="badge-soft medium">
+                    <span class="difficulty-icon">🔥🔥</span> Medium
+                  </span>
+                </div>
+                <p>Navigate through a malfunctioning space station, fix critical systems, and find your way back home.</p>
+                <div class="pill-row">
+                  <span class="pill">Sci-Fi</span>
+                  <span class="pill">Mystery</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★★</span>
+                    <span>4.8</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>189</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/space-station-alpha/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Ancient Temple -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Ancient Temple game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Ancient Temple</h3>
+                  <span class="badge-soft easy">
+                    <span class="difficulty-icon">🔥</span> Easy
+                  </span>
+                </div>
+                <p>Explore ancient ruins, decode hieroglyphics, and discover the temple's legendary treasure.</p>
+                <div class="pill-row">
+                  <span class="pill">Adventure</span>
+                  <span class="pill">Puzzle</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.3</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>567</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/ancient-temple/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Haunted Hospital -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Haunted Hospital game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Haunted Hospital</h3>
+                  <span class="badge-soft hard">
+                    <span class="difficulty-icon">🔥🔥🔥</span> Hard
+                  </span>
+                </div>
+                <p>Survive the night in an abandoned hospital filled with paranormal activities and dark secrets.</p>
+                <div class="pill-row">
+                  <span class="pill">Horror</span>
+                  <span class="pill">Mystery</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.7</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>123</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/haunted-hospital/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Lost City -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Lost City game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Lost City</h3>
+                  <span class="badge-soft medium">
+                    <span class="difficulty-icon">🔥🔥</span> Medium
+                  </span>
+                </div>
+                <p>Discover a forgotten civilization, solve archaeological puzzles, and unlock ancient mysteries.</p>
+                <div class="pill-row">
+                  <span class="pill">Adventure</span>
+                  <span class="pill">History</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.5</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>298</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/lost-city/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Pirate Ship -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Pirate Ship game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Pirate Ship</h3>
+                  <span class="badge-soft easy">
+                    <span class="difficulty-icon">🔥</span> Easy
+                  </span>
+                </div>
+                <p>Navigate a ghost ship, find the hidden treasure map, and escape before the ship sinks.</p>
+                <div class="pill-row">
+                  <span class="pill">Adventure</span>
+                  <span class="pill">Puzzle</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.2</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>445</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/pirate-ship/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Dark Forest -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Dark Forest game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Dark Forest</h3>
+                  <span class="badge-soft hard">
+                    <span class="difficulty-icon">🔥🔥🔥</span> Hard
+                  </span>
+                </div>
+                <p>Find your way through an enchanted forest filled with magical creatures and dangerous traps.</p>
+                <div class="pill-row">
+                  <span class="pill">Fantasy</span>
+                  <span class="pill">Adventure</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.6</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>187</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/dark-forest/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Robot Factory -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Robot Factory game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Robot Factory</h3>
+                  <span class="badge-soft medium">
+                    <span class="difficulty-icon">🔥🔥</span> Medium
+                  </span>
+                </div>
+                <p>Reboot the AI systems, fix malfunctioning robots, and prevent a factory meltdown.</p>
+                <div class="pill-row">
+                  <span class="pill">Sci-Fi</span>
+                  <span class="pill">Logic</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.4</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>234</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/robot-factory/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cyber Lab 2024 -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Cyber Lab 2024 game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Cyber Lab 2024</h3>
+                  <span class="badge-soft hard">
+                    <span class="difficulty-icon">🔥🔥🔥</span> Hard
+                  </span>
+                </div>
+                <p>Hack into secured systems, decode encrypted files, and expose corporate secrets.</p>
+                <div class="pill-row">
+                  <span class="pill">Hacking</span>
+                  <span class="pill">Tech</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★★</span>
+                    <span>4.9</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>89</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/cyber-lab-2024/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Desert Oasis -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Desert Oasis game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Desert Oasis</h3>
+                  <span class="badge-soft medium">
+                    <span class="difficulty-icon">🔥🔥</span> Medium
+                  </span>
+                </div>
+                <p>Survive the harsh desert, find water sources, and reach the legendary oasis.</p>
+                <div class="pill-row">
+                  <span class="pill">Survival</span>
+                  <span class="pill">Adventure</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.1</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>156</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/desert-oasis/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Frozen Palace -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Frozen Palace game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Frozen Palace</h3>
+                  <span class="badge-soft easy">
+                    <span class="difficulty-icon">🔥</span> Easy
+                  </span>
+                </div>
+                <p>Break the ice curse, restore warmth to the palace, and save the frozen kingdom.</p>
+                <div class="pill-row">
+                  <span class="pill">Fantasy</span>
+                  <span class="pill">Magic</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.5</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>334</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/frozen-palace/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Neon City -->
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Neon City game thumbnail" class="game-card-image" loading="lazy" width="320" height="180">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Neon City</h3>
+                  <span class="badge-soft hard">
+                    <span class="difficulty-icon">🔥🔥🔥</span> Hard
+                  </span>
+                </div>
+                <p>Navigate cyberpunk streets, avoid corporate surveillance, and uncover the truth.</p>
+                <div class="pill-row">
+                  <span class="pill">Cyberpunk</span>
+                  <span class="pill">Stealth</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.8</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>123</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/neon-city/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div style="text-align: center; margin-top: 2rem;">
+            <a href="/games/" class="button-link primary">View All Games →</a>
+          </div>
+        </div>
+
+        <!-- New Tab -->
+        <div id="tab-new" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-new" aria-hidden="true">
+          <div class="card-grid">
+            <!-- Content will be populated via JavaScript or pre-rendered -->
+            <p style="grid-column: 1 / -1; text-align: center; color: var(--text-secondary); padding: 2rem;">
+              Loading new games...
+            </p>
+          </div>
+        </div>
+
+        <!-- Editor's Picks Tab -->
+        <div id="tab-editors" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-editors" aria-hidden="true">
+          <div class="card-grid">
+            <!-- Content will be populated via JavaScript or pre-rendered -->
+            <p style="grid-column: 1 / -1; text-align: center; color: var(--text-secondary); padding: 2rem;">
+              Loading editor's picks...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- About Section -->
+        <div class="footer-section">
+          <h3>blueroom.cc</h3>
+          <p>The ultimate destination for escape game enthusiasts. Discover, play, and master the best online escape games.</p>
+          <div class="footer-social">
+            <a href="#" class="social-icon" aria-label="Discord">D</a>
+            <a href="#" class="social-icon" aria-label="Twitter">T</a>
+            <a href="#" class="social-icon" aria-label="YouTube">Y</a>
+          </div>
+        </div>
+
+        <!-- Games Links -->
+        <div class="footer-section">
+          <h3>Games</h3>
+          <div class="footer-links">
+            <a href="/games/">New Releases</a>
+            <a href="/games/">Popular Games</a>
+            <a href="/games/">Hard Difficulty</a>
+            <a href="/games/">Easy Games</a>
+            <a href="/games/">Free Games</a>
+          </div>
+        </div>
+
+        <!-- Support Links -->
+        <div class="footer-section">
+          <h3>Support</h3>
+          <div class="footer-links">
+            <a href="/guides/">Game Guides</a>
+            <a href="/guides/">Walkthroughs</a>
+            <a href="/about/">FAQ</a>
+            <a href="/about/">Contact Us</a>
+            <a href="/about/">Bug Reports</a>
+          </div>
+        </div>
+
+        <!-- Community Links -->
+        <div class="footer-section">
+          <h3>Community</h3>
+          <div class="footer-links">
+            <a href="#" rel="noopener noreferrer">Discord Server</a>
+            <a href="#" rel="noopener noreferrer">Reddit Community</a>
+            <a href="#" rel="noopener noreferrer">Player Forums</a>
+            <a href="#" rel="noopener noreferrer">Leaderboards</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>&copy; 2024 blueroom.cc. All rights reserved.</div>
+        <div class="footer-legal">
+          <a href="/privacy-policy/">Privacy Policy</a>
+          <a href="/about/">Terms of Service</a>
+          <a href="/about/">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/global.js" defer></script>
+  <script src="/assets/js/home.js" defer></script>
+</body>
+</html>

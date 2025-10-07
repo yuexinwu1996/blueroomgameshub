@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Games | BlueRoom.cc - Browse Escape & Puzzle Games</title>
+  <meta name="description" content="Browse all escape and puzzle games. Filter by difficulty, category, and mechanisms. Find your next challenge.">
+  <link rel="canonical" href="https://www.blueroom.cc/games/">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "All Escape Games",
+    "description": "Browse all escape and puzzle games",
+    "url": "https://www.blueroom.cc/games/"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.blueroom.cc/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Games",
+        "item": "https://www.blueroom.cc/games/"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-brand" href="/" aria-label="BlueRoom.cc Home">
+          <span class="site-brand-icon">B</span>
+          <span>blueroom.cc</span>
+        </a>
+        <div class="site-nav-links">
+          <a href="/">Home</a>
+          <a href="/games/" aria-current="page">Games</a>
+          <a href="/guides/">Guides</a>
+          <a href="/about/">About</a>
+        </div>
+        <div class="search-shell" data-search>
+          <form data-search-form role="search" aria-label="Site search">
+            <label class="visually-hidden" for="global-search">Search games...</label>
+            <input id="global-search" type="search" name="q" placeholder="Search games..." autocomplete="off">
+            <button type="submit" aria-label="Search">🔍</button>
+          </form>
+          <div class="search-results-panel" data-search-results aria-expanded="false"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <div class="section-header" style="margin-top: 2rem; margin-bottom: 2rem;">
+        <div>
+          <h1>All Games</h1>
+          <p>Browse and filter escape games by difficulty, category, and mechanisms</p>
+        </div>
+      </div>
+
+      <div class="games-layout">
+        <!-- Sidebar Filters -->
+        <aside class="facet-panel">
+          <div class="facet-group">
+            <h3>Difficulty</h3>
+            <div class="facet-options">
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Easy" data-facet="difficulty">
+                Easy
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Medium" data-facet="difficulty">
+                Medium
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Hard" data-facet="difficulty">
+                Hard
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Insane" data-facet="difficulty">
+                Insane
+              </label>
+            </div>
+          </div>
+
+          <div class="facet-group">
+            <h3>Categories</h3>
+            <div class="facet-options">
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Horror" data-facet="categories">
+                Horror
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Sci-Fi" data-facet="categories">
+                Sci-Fi
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Mystery" data-facet="categories">
+                Mystery
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Adventure" data-facet="categories">
+                Adventure
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Fantasy" data-facet="categories">
+                Fantasy
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Puzzle" data-facet="categories">
+                Puzzle
+              </label>
+            </div>
+          </div>
+
+          <div class="facet-group">
+            <h3>Mechanisms</h3>
+            <div class="facet-options">
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Logic" data-facet="mechanisms">
+                Logic
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Hidden Objects" data-facet="mechanisms">
+                Hidden Objects
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Ciphers" data-facet="mechanisms">
+                Ciphers
+              </label>
+              <label class="facet-checkbox">
+                <input type="checkbox" value="Pattern Recognition" data-facet="mechanisms">
+                Pattern Recognition
+              </label>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Games Grid -->
+        <div>
+          <!-- Toolbar -->
+          <div class="games-toolbar">
+            <div style="color: var(--text-secondary); font-size: 0.875rem;">
+              <strong id="games-count">36</strong> games found
+            </div>
+            <select class="select-input" id="games-sort">
+              <option value="trending">Trending</option>
+              <option value="new">Newest</option>
+              <option value="rating">Highest Rated</option>
+              <option value="alpha">A-Z</option>
+            </select>
+          </div>
+
+          <!-- Games Grid -->
+          <div class="card-grid" id="games-grid">
+            <!-- Repeat game cards (showing variety) -->
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Mystery Mansion" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Mystery Mansion</h3>
+                  <span class="badge-soft hard"><span class="difficulty-icon">🔥🔥🔥</span> Hard</span>
+                </div>
+                <p>Solve intricate puzzles and uncover hidden secrets in the mysterious mansion.</p>
+                <div class="pill-row">
+                  <span class="pill">Horror</span>
+                  <span class="pill">Puzzle</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.6</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>345</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/mystery-mansion/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Space Station Alpha" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Space Station Alpha</h3>
+                  <span class="badge-soft medium"><span class="difficulty-icon">🔥🔥</span> Medium</span>
+                </div>
+                <p>Navigate through a malfunctioning space station and fix critical systems.</p>
+                <div class="pill-row">
+                  <span class="pill">Sci-Fi</span>
+                  <span class="pill">Mystery</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★★</span>
+                    <span>4.8</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>189</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/space-station-alpha/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Ancient Temple" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Ancient Temple</h3>
+                  <span class="badge-soft easy"><span class="difficulty-icon">🔥</span> Easy</span>
+                </div>
+                <p>Explore ancient ruins and decode hieroglyphics to find treasure.</p>
+                <div class="pill-row">
+                  <span class="pill">Adventure</span>
+                  <span class="pill">Puzzle</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.3</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>567</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/ancient-temple/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Haunted Hospital" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Haunted Hospital</h3>
+                  <span class="badge-soft hard"><span class="difficulty-icon">🔥🔥🔥</span> Hard</span>
+                </div>
+                <p>Survive the night in an abandoned hospital filled with paranormal activity.</p>
+                <div class="pill-row">
+                  <span class="pill">Horror</span>
+                  <span class="pill">Mystery</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.7</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>123</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/haunted-hospital/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Cyber Lab 2024" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Cyber Lab 2024</h3>
+                  <span class="badge-soft insane"><span class="difficulty-icon">🔥🔥🔥🔥</span> Insane</span>
+                </div>
+                <p>Hack into secured systems and decode encrypted files.</p>
+                <div class="pill-row">
+                  <span class="pill">Sci-Fi</span>
+                  <span class="pill">Logic</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★★</span>
+                    <span>4.9</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>89</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/cyber-lab-2024/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Lost City" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Lost City</h3>
+                  <span class="badge-soft medium"><span class="difficulty-icon">🔥🔥</span> Medium</span>
+                </div>
+                <p>Discover a forgotten civilization and solve archaeological puzzles.</p>
+                <div class="pill-row">
+                  <span class="pill">Adventure</span>
+                  <span class="pill">Mystery</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.5</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>298</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/lost-city/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Dark Forest" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Dark Forest</h3>
+                  <span class="badge-soft hard"><span class="difficulty-icon">🔥🔥🔥</span> Hard</span>
+                </div>
+                <p>Find your way through an enchanted forest filled with magical creatures.</p>
+                <div class="pill-row">
+                  <span class="pill">Fantasy</span>
+                  <span class="pill">Adventure</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.6</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>187</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/dark-forest/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Pirate Ship" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Pirate Ship</h3>
+                  <span class="badge-soft easy"><span class="difficulty-icon">🔥</span> Easy</span>
+                </div>
+                <p>Navigate a ghost ship and find the hidden treasure map.</p>
+                <div class="pill-row">
+                  <span class="pill">Adventure</span>
+                  <span class="pill">Puzzle</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.2</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>445</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/pirate-ship/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <img src="/assets/images/games/placeholder-game.svg" alt="Robot Factory" class="game-card-image" loading="lazy">
+              <div class="game-card-content">
+                <div class="game-card-header">
+                  <h3>Robot Factory</h3>
+                  <span class="badge-soft medium"><span class="difficulty-icon">🔥🔥</span> Medium</span>
+                </div>
+                <p>Reboot the AI systems and prevent a factory meltdown.</p>
+                <div class="pill-row">
+                  <span class="pill">Sci-Fi</span>
+                  <span class="pill">Logic</span>
+                </div>
+                <div class="game-card-meta">
+                  <div class="game-card-meta-item">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>4.4</span>
+                  </div>
+                  <div class="game-card-meta-item">
+                    <span>👥</span>
+                    <span>234</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a class="button-link primary" href="/games/robot-factory/">▶ Play Now</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- Pagination -->
+          <div class="pagination">
+            <a href="?page=1" class="current">1</a>
+            <a href="?page=2">2</a>
+            <a href="?page=3">3</a>
+            <a href="?page=4">4</a>
+            <span>...</span>
+            <a href="?page=2">Next →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>blueroom.cc</h3>
+          <p>The ultimate destination for escape game enthusiasts. Discover, play, and master the best online escape games.</p>
+          <div class="footer-social">
+            <a href="#" class="social-icon" aria-label="Discord">D</a>
+            <a href="#" class="social-icon" aria-label="Twitter">T</a>
+            <a href="#" class="social-icon" aria-label="YouTube">Y</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Games</h3>
+          <div class="footer-links">
+            <a href="/games/">New Releases</a>
+            <a href="/games/">Popular Games</a>
+            <a href="/games/">Hard Difficulty</a>
+            <a href="/games/">Easy Games</a>
+            <a href="/games/">Free Games</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Support</h3>
+          <div class="footer-links">
+            <a href="/guides/">Game Guides</a>
+            <a href="/guides/">Walkthroughs</a>
+            <a href="/about/">FAQ</a>
+            <a href="/about/">Contact Us</a>
+            <a href="/about/">Bug Reports</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Community</h3>
+          <div class="footer-links">
+            <a href="#" rel="noopener noreferrer">Discord Server</a>
+            <a href="#" rel="noopener noreferrer">Reddit Community</a>
+            <a href="#" rel="noopener noreferrer">Player Forums</a>
+            <a href="#" rel="noopener noreferrer">Leaderboards</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2024 blueroom.cc. All rights reserved.</div>
+        <div class="footer-legal">
+          <a href="/privacy-policy/">Privacy Policy</a>
+          <a href="/about/">Terms of Service</a>
+          <a href="/about/">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/global.js" defer></script>
+  <script src="/assets/js/games.js" defer></script>
+</body>
+</html>
