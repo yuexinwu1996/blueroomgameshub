@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Profile | BlueRoom.cc</title>
+  <meta name="description" content="Your BlueRoom.cc profile">
+  <link rel="canonical" href="https://www.blueroom.cc/user/profile/">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/community.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="site-brand" href="/" aria-label="BlueRoom.cc Home">
+          <span class="site-brand-icon">B</span>
+          <span>blueroom.cc</span>
+        </a>
+        <div class="site-nav-links">
+          <a href="/">Home</a>
+          <a href="/games/">Games</a>
+          <a href="/community/">Community</a>
+          <a href="/about/">About</a>
+        </div>
+        <div class="user-menu" data-user-menu>
+          <button class="user-avatar" data-user-trigger>
+            <span class="user-avatar-text">U</span>
+          </button>
+          <div class="user-dropdown" data-user-dropdown>
+            <a href="/user/profile/">Profile</a>
+            <a href="/user/settings/">Settings</a>
+            <hr>
+            <a href="/auth/logout/">Logout</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container" style="margin-top: 2rem;">
+      <div class="profile-layout">
+        <!-- Sidebar -->
+        <aside class="profile-sidebar">
+          <div class="profile-card">
+            <div class="profile-avatar">
+              <span class="user-avatar-text" style="font-size: 3rem;">U</span>
+            </div>
+            <h2 id="profile-username">Username</h2>
+            <p style="color: var(--text-secondary); font-size: 0.875rem;">Member since Oct 2024</p>
+
+            <div class="profile-stats">
+              <div class="stat-item">
+                <strong id="user-points">0</strong>
+                <span>Points</span>
+              </div>
+              <div class="stat-item">
+                <strong id="user-posts">0</strong>
+                <span>Posts</span>
+              </div>
+              <div class="stat-item">
+                <strong id="user-comments">0</strong>
+                <span>Comments</span>
+              </div>
+            </div>
+
+            <div style="margin-top: 1.5rem;">
+              <span class="badge-soft" style="display: inline-block;">New Member</span>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="profile-content">
+          <!-- Tabs -->
+          <div class="tablist" role="tablist" data-tablist>
+            <button class="tab-button" role="tab" aria-selected="true" data-tab-target="tab-activity" id="tab-btn-activity">
+              Activity
+            </button>
+            <button class="tab-button" role="tab" aria-selected="false" data-tab-target="tab-posts" id="tab-btn-posts" tabindex="-1">
+              Posts
+            </button>
+            <button class="tab-button" role="tab" aria-selected="false" data-tab-target="tab-comments" id="tab-btn-comments" tabindex="-1">
+              Comments
+            </button>
+            <button class="tab-button" role="tab" aria-selected="false" data-tab-target="tab-favorites" id="tab-btn-favorites" tabindex="-1">
+              Favorites
+            </button>
+          </div>
+
+          <!-- Activity Tab -->
+          <div id="tab-activity" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-activity" aria-hidden="false">
+            <div class="activity-list">
+              <p style="color: var(--text-secondary); text-align: center; padding: 2rem;">
+                No recent activity. Start exploring games and join discussions!
+              </p>
+            </div>
+          </div>
+
+          <!-- Posts Tab -->
+          <div id="tab-posts" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-posts" aria-hidden="true">
+            <div class="posts-list">
+              <p style="color: var(--text-secondary); text-align: center; padding: 2rem;">
+                You haven't created any posts yet.
+              </p>
+            </div>
+          </div>
+
+          <!-- Comments Tab -->
+          <div id="tab-comments" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-comments" aria-hidden="true">
+            <div class="comments-list">
+              <p style="color: var(--text-secondary); text-align: center; padding: 2rem;">
+                You haven't made any comments yet.
+              </p>
+            </div>
+          </div>
+
+          <!-- Favorites Tab -->
+          <div id="tab-favorites" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-favorites" aria-hidden="true">
+            <div class="favorites-list">
+              <p style="color: var(--text-secondary); text-align: center; padding: 2rem;">
+                You haven't favorited any games yet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2024 blueroom.cc. All rights reserved.</div>
+        <div class="footer-legal">
+          <a href="/privacy-policy/">Privacy Policy</a>
+          <a href="/about/">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/global.js" defer></script>
+  <script src="/assets/js/profile.js" defer></script>
+</body>
+</html>
